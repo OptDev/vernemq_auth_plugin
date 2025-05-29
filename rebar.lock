@@ -1,16 +1,8 @@
-{"1.2.0",
-[{<<"base64url">>,{pkg,<<"base64url">>,<<"0.0.1">>},1},
- {<<"jose">>,
-  {git,"git://github.com/potatosalad/erlang-jose.git",
-       {ref,"2d0f45bd3d4458abbfdb2b5667ea50f817246b1b"}},
+[{<<"jose">>,
+  {git,"https://github.com/potatosalad/erlang-jose.git",
+       {ref,"e6e6be719695e55618a56416be4d7934dd81deba"}},
   0},
  {<<"vernemq_dev">>,
-  {git,"git://github.com/erlio/vernemq_dev.git",
-       {ref,"6d622aa8c901ae7777433aef2bd049e380c474a6"}},
-  0}]}.
-[
-{pkg_hash,[
- {<<"base64url">>, <<"36A90125F5948E3AFD7BE97662A1504B934DD5DAC78451CA6E9ABF85A10286BE">>}]},
-{pkg_hash_ext,[
- {<<"base64url">>, <<"FAB09B20E3F5DB886725544CBCF875B8E73EC93363954EB8A1A9ED834AA8C1F9">>}]}
-].
+  {git,"https://github.com/vernemq/vernemq_dev.git",
+       {ref,"66ce2cc58ba2f79f748e1a77635582f27273e20d"}},
+  0}].
